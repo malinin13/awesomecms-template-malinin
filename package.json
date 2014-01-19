@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/malinin13/awesomecms-template-malinin/issues"
   },
-  "homepage": "https://github.com/malinin13/awesomecms-template-malinin"
+  "homepage": "https://github.com/malinin13/awesomecms-template-malinin",
+  "dependencies": {
+    "gulp-rename": "~0.2.2",
+    "gulp-minify-css": "~0.2.0",
+    "gulp-uglify": "~0.1.0",
+    "gulp-clean": "~0.2.3",
+    "gulp": "~3.4.1",
+    "gulp-jade": "~0.3.0",
+    "gulp-sass": "~0.4.1"
+  }
 }
