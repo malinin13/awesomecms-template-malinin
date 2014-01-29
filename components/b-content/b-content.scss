@@ -1,0 +1,96 @@
+.b-content {
+  background: url(http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_content.png) 100% 0 repeat-y;
+  padding: 20px 0 30px;
+  overflow: hidden;
+  margin-top:50px;
+  text-shadow: #fff 1px 1px;
+}
+.mainCol {
+  float: left;
+  width: 663px;
+  margin-right: 30px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.blogPostGrid {
+    float: left;
+    margin: 0 25px 0 0;
+    width: 305px;
+    padding-bottom: 5px;
+    position: relative;
+    text-shadow: none;
+    padding-right: 20px;
+    background:url("http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_dotted_vert.png" )100% 0 repeat-y;
+  .meta {
+    color: #999;
+    margin-bottom: 10px;
+    font-size: 12px;
+    overflow: hidden;
+    .date {
+      width: 100px;
+      height: 42px;
+      font-size: 14px;
+      padding-top: 5px;
+      border-right: 1px solid #BFBFBF;
+      float: left;
+      margin-right: 15px;
+      background: url("http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_date.png")0 0 no-repeat;
+      .day{
+        float: left;
+        display: block;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-shadow: none;
+        font-size: 24px;
+        font-style: italic;
+        width: 47px;
+        padding-top: 5px;
+        text-align: center;
+        margin-right: 5px;
+        padding-bottom: 4px;
+        color: #fff;
+      }
+    }
+    .metaRight {
+      float: left;
+      padding-bottom: 10px;
+      line-height: 20px;
+      padding-top: 2px;
+      font-size: 11px;
+      width: 180px;
+    }
+  }
+  img {
+    background: none;
+    border: none;
+    padding: 0;
+    vertical-align: middle;
+    float: none;
+    margin: 0 7px 0 0;
+  }
+  h1 {
+    font-size: 20px;
+    line-height: 110%;
+    font-style: italic;
+    color: #333;
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  }
+  p {
+    margin: 1em 0;
+    display: block;
+  }
+  &.Last {
+    background: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+.separator {
+  background: url(http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_dotted_horiz.png) 0 50% repeat-x;
+  height: 40px;
+  clear: both;
+  margin-bottom: 10px;
+}

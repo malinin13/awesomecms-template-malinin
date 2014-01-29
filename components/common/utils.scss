@@ -1,3 +1,21 @@
+$font: "Arial, Helvetica, sans-serif";
+
+a {
+  color: #EC4D19;
+  text-decoration: none;
+}
+
+body, html {
+  font-weight: normal;
+  font-family: $font;
+  font-size: 13px;
+  line-height: 135%;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #F8F7F1 url(http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_body.png) 0 0 repeat-x;
+}
+
 .main-wrapper {
   background: url("http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_mainwrapper.png") 50% 0 no-repeat;
   margin: 0;
@@ -7,6 +25,8 @@
     margin: 0 auto;
     width: 960px;
     padding: 0;
+    height: 100%;
+    position: relative;
   }
 }
 

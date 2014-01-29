@@ -7,8 +7,10 @@ var lr              = require('tiny-lr'),
     sass            = require('gulp-sass'),
     uglify          = require('gulp-uglify'),
     livereload      = require('gulp-livereload'),
+    compass         = require('gulp-compass'),
+    concat          = require('gulp-concat'),
     server          = lr(),
-    serverPort      = 63342;
+    serverPort      = 35729;
 
 /** -S пиши для плагинов**/
 gulp.task('template:jade', function(){
@@ -18,14 +20,19 @@ gulp.task('template:jade', function(){
         .pipe(gulp.dest('C:/OpenServer/domains/awesomecms/assets/html'));
 });
 
-gulp.task('css:sass', function () {
-    gulp.src('./components/**/*.scss')
-        .pipe(sass())
+gulp.task('css:sass', function() {
+    gulp.src('./components/styles.scss')
+        .pipe(compass({
+            css: 'assets/css/',
+            sass: 'components/',
+            image: 'components/'
+        }))
+        .pipe(concat('styles.css')) // npm install gulp-concat --save-dev
+        .pipe(minifyCss())
         .pipe(gulp.dest('C:/OpenServer/domains/awesomecms/assets/css/'))
-        .pipe(livereload(server));
 });
 gulp.task('lr-server', function() {
-    server.listen(35729, function(err) {
+    server.listen(serverPort, function(err) {
         if(err) return console.log(err);
     });
 });

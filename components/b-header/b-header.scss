@@ -1,74 +1,24 @@
-
-
-$font: "Arial, Helvetica, sans-serif";
-
-.main-wrapper {
-  background: url("http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_mainwrapper.png") 50% 0 no-repeat;
-  margin: 0;
-  padding: 0;
-  .wrapper {
-    margin: 0 auto;
-    width: 960px;
-    padding: 0;
-  }
-}
-
-.pull-right {
-  float: right;
-}
-
-.btn {
-  min-width: 125px;
-  display: inline-block;
-  text-transform: uppercase;
-  height: 20px;
-  background-color: #A9A9A9;
-  text-align: center;
-  padding: 10px 20px 10px 10px;
-  color: #fff;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-}
-.btn-danger {
-  background: url("http://www.s5themes.com/wp-content/themes/s5themes_reboot/img/bg_button_red.png") repeat;
-  background-color: none;
-}
-.btn-info {
-  background: url('http://www.s5themes.com/wp-content/themes/s5themes_reboot/img/bg_button.png');
-  background-color: none;
-  width: auto;
-}
-
-
-body, html {
-    font-weight: normal;
-    font-family: $font;
-    font-size: 13px;
-    line-height: 135%;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
 .b-header {
   position: relative;
   padding-top: 203px;
   background: url("http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_header.png")50% 0 no-repeat;
 }
+
 .head-container {
   width: 1026px;
   margin: 0 auto;
   padding: 10px 12px;
 }
 
-
 .nav {
   display: inline-block;
   text-align: center;
   width: 100%;
-  border-bottom: 1px dotted #D4D3B2;
+  max-height: 16px;
   margin-top: 14px;
   background-color: #f8f7f2;
 }
+
 ul {
   list-style: none;
   display: block;
@@ -98,18 +48,14 @@ ul {
   }
 }
 
-
-
-
-
 .blog-title {
   padding: 30px 0;
   margin-top: 4px;
-  background: url("http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_footer.png");
   height: 30px;
   width: 100%;
   border-top: 1px dotted #D4D3B2;
   border-bottom: 1px dotted #D4D3B2;
+
   .tagline {
     display: block;
     padding-top: 13px;
@@ -118,6 +64,7 @@ ul {
     color: #7D7D7D;
     text-align: center;
   }
+
   .title {
     position: relative;
     top: -4px;
@@ -134,8 +81,9 @@ ul {
 .topsearch{
   position: absolute;
   bottom: 25px;
-  right: 160px;
+  right: 10px;
 }
+
 #s {
   width: 150px;
   padding: 3px 0;
@@ -148,6 +96,7 @@ ul {
   border-bottom: 1px solid #C7C3A6;
   color: #7D7D7D;
 }
+
 #searchsubmit {
   width: 31px;
   height: 30px;
