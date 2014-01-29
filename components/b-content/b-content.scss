@@ -94,3 +94,84 @@
   clear: both;
   margin-bottom: 10px;
 }
+
+.clearBoth {
+  clear: both;
+}
+
+.emm-paginate {
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  padding-right: 2px;
+
+  .emm-title {
+    color: #555;
+    float: left;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .emm-current, a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 0 10px;
+    font-weight: bold;
+    border-right: 1px dotted #ccc;
+  }
+
+  a{
+    &:hover, &:active, .emm-current {
+      color: #666;
+    }
+  }
+}
+
+.sidebar {
+  float: left;
+  width: 220px;
+  font-size: 12px;
+
+  ul{
+    margin-top: 0;
+    margin-bottom: 20px;
+    background: url(http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_dotted_horiz.png) 0 0 repeat-x;
+
+    li{
+      max-width: 100%!important;
+      display: list-item;
+      text-align: -webkit-match-parent;
+      padding: 8px 0;
+      background: url(http://demo.s5themes.com/wpanniversary/wp-content/themes/wpanniversary/images/bk_dotted_horiz.png) 0 100% repeat-x;
+
+      a {
+        color: #A29959;
+      }
+    }
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+}
+
+.TwitterBox {
+  a {
+    &.action {
+      display: block;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-style: italic;
+      font-size: 14px;
+      color: #EC4D19;
+    }
+  }
+}
+
