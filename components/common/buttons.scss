@@ -1,0 +1,23 @@
+.btn {
+  min-width: 125px;
+  display: inline-block;
+  text-transform: uppercase;
+  height: 20px;
+  background-color: #A9A9A9;
+  text-align: center;
+  padding: 10px 20px 10px 10px;
+  color: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.btn-danger {
+  background: url("http://www.s5themes.com/wp-content/themes/s5themes_reboot/img/bg_button_red.png") repeat;
+  background-color: none;
+}
+
+.btn-info {
+  background: url('http://www.s5themes.com/wp-content/themes/s5themes_reboot/img/bg_button.png');
+  background-color: none;
+  width: auto;
+}
