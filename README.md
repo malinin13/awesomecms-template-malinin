@@ -1,2 +1,0 @@
-awesomecms-template-malinin
-===========================
